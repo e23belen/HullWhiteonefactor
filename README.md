@@ -17,7 +17,7 @@ As per the original version, the function inputs are as follow:
 * `t` (array of floats): representing times at which the output is generated.
 * `sizeT` (int): number of elements in `t` array, corresponding to the number of years being simulated. Must be same as `sizeF`.
 * `f` (array of floats):
-* `sizeF` (int): number of elements in `t` array, corresponding to the number of years being simulated. Must be same as `sizeF`.
+* `sizeF` (int): number of elements in `f` array. Must be same as `sizeT`.
 
 ## How to use
 
