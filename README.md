@@ -1,6 +1,6 @@
 # HullWhiteonefactor
 
-This is a c++ version of the Hull-White one factor simulator found [here](https://github.com/open-source-modelling/one_factor_Hull_White_python).
+This is a c++ version of the Hull-White one factor simulator found [here](https://github.com/open-source-modelling/one_factor_Hull_White_python). I'm not the author of the original version.
 
 As per the original version, "A popular choice of model in practice is the Hull-White model. This is an extension of the Vasicek model, that is able to completely replicate the initial term structure. This allows to construct no-arbitrage curves using current market structure of interest rates. This is achieved by allowing the reversion-level parameter theta which is constant in the classical Vasicek model to vary in time with the observable future rates. The one factor version presented in this repository models the short rate using the dynamics described in the [Wiki](https://en.wikipedia.org/wiki/Hull%E2%80%93White_model)."
 
