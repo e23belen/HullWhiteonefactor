@@ -15,7 +15,7 @@ As per the original version, the function inputs are as follow:
 * `a` (float): speed of reversion parameter that is related to the velocity at which such trajectories will regroup around the forward rate theta.
 * `sigma` (float): instantaneous volatility measures instant by instant the amplitude of randomness entering the system.
 * `t` (array of floats): representing times at which the output is generated.
-* `sizeT` (int): number of elements in `t` array, corresponding to the number of years being simulated. Must be same as `sizeF`.
+* `sizeT` (int): number of elements in `t` array. Must be same as `sizeF`.
 * `f` (array of floats):
 * `sizeF` (int): number of elements in `f` array. Must be same as `sizeT`.
 
