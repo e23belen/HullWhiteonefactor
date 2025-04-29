@@ -6,7 +6,7 @@ As per the original version, "A popular choice of model in practice is the Hull-
 
 ## What's Different?
 
-Due to the nature of c++, in order to allow for dynamic input array lengths, `malloc` is used in the function. The function frees the local variables `deltat`, `alpha`, `e`, and `v` after returning a N x 1 pointer array of the simulated rates. In order to create a normal distribution of real numbers, `static random_device rd{}`, `static mt19937 gen{rd()}`, and `uniform_real_distribution<float>`. Also, to use the function in another script, one must `#include "HullWhiteonefactor.h` for the header file.
+Due to the nature of c++, in order to allow for dynamic input array lengths, `malloc` is used in the function. The function frees the local variables `deltat`, `alpha`, `e`, and `v` after returning a N x 1 pointer array, `r`, of the simulated rates. In order to create a normal distribution of real numbers, `static random_device rd{}`, `static mt19937 gen{rd()}`, and `uniform_real_distribution<float>`. Also, to use the function in another script, one must `#include "HullWhiteonefactor.h` for the header file.
 
 ## Input
 
