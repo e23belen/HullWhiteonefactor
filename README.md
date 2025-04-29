@@ -42,9 +42,6 @@ int main()
 
     ptr = onefactorHullWhite(r0, alpha, sigma, time, sizeT, forwards, sizeF);
     
-    for(int i = 0; i<10; i++) {
-        cout<<ptr[i]<<endl;
-    }
     for (int i = 0; i < 10; i++) {
         out[i][0] = time[i];
         out[i][1] = ptr[i];
